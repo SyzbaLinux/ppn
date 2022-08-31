@@ -17,7 +17,7 @@
 
 
                     <div class="profile-image mb-3 " >
-                        <img   src="{{ asset('images/user.png') }}" width="200" alt="">
+                        <img   src="{{ asset('images/user.png') }}" width="130px"  class="main-user-icon" alt="">
 
                         <div class="img-position">
                             <label for="profile_image">
