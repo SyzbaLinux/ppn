@@ -1,0 +1,84 @@
+@import "~bootstrap/scss/bootstrap"; // imported all code in production we can use treeshaking to reduce the final bundle size
+
+.theme-btn{
+    background-color: #b4ea01 !important;
+}
+
+.hidden-sm-and-up{
+    display: none  ;
+}
+
+.menu-list{
+    list-style: none !important;
+}
+.menu-list a{
+    text-decoration: none !important;
+}
+
+
+
+.form-check-input:checked {
+    background-color: #b4ea01 !important;
+    border-color: #b4ea01 !important;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+input[type=radio] {
+    transform: scale(1.5);
+}
+
+.image-upload {
+    display: none;
+}
+
+.img-position{
+    margin-top: -42px;
+    height: 50px;
+    width: 50px;
+    margin-left: 150px;
+}
+
+
+input[type=text],input[type=email] {
+    border-radius: unset !important;
+    border-left: unset;
+    border-right: unset;
+    border-top: unset;
+    border-bottom: 3px solid #b4ea01;
+    background-color: rgba(243, 243, 243, 0.82);
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: rgba(243, 243, 243, 0.82);
+}
+
+select {
+    border-radius: unset !important;
+    border-left: unset;
+    border-right: unset;
+    border-top: unset;
+    border-bottom: 3px solid #b4ea01 !important;
+    background-color: lightgrey;
+}
+//Responsive Actions
+
+@media (max-width: 500px) {
+    .hidden-sm-and-up{
+        display: block !important;
+    }
+
+    .hidden-sm-and-down{
+        display: none !important;
+    }
+
+    .text-xs-center{
+        text-align: center;
+    }
+}
+
